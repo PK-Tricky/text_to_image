@@ -1,8 +1,6 @@
 
-#
-####################################################### 19 jan #############
-API_URL = "https://api-inference.huggingface.co/"
-
+API_URL = "https://api-inference.huggingface.co/models/goofyai/Leonardo_Ai_Style_Illustration"
+headers = {"Authorization": "Bearer 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"}
 
 import gradio as gr
 import requests
